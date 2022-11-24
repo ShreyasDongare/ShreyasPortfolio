@@ -12,38 +12,38 @@ const Experiance = () => {
         {
             id:1,
             image: html,
-            title: "HTML5",
+            title: "HTML",
             style: "shadow-orange-500",
         },
         {
             id:2,
             image: css,
-            title: "CSS 3",
+            title: "CSS",
             style: "shadow-blue-500",
         },
         {
-            id:1,
+            id:3,
             image: javascript,
             title: "JavaScript",
             style: "shadow-yellow-500",
         },
         {
-            id:1,
+            id:4,
             image: react,
             title: "ReactJS",
             style: "shadow-blue-600",
         },
         {
-            id:1,
-            image: tailwind,
-            title: "Tailwind 3.0",
-            style: "shadow-orange-500",
-        },
-        {
-            id:1,
+            id:5,
             image: github,
             title: "GitGub",
             style: "shadow-gray-500",
+        },
+        {
+            id:6,
+            image: tailwind,
+            title: "Tailwind",
+            style: "shadow-sky-500",
         },
     ]
   return (
