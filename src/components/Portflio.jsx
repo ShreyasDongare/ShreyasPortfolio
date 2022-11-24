@@ -27,12 +27,12 @@ const Portflio = () => {
             <p className='text-4xl inline border-b-4 rounded-sm border-gray-500'>Portfolio</p>
             <p className='py-6'> here are some projects that have worked on</p>
         </div>
-        <div className='grid sm:grid-cols-1 md:grid-cols-3 hap-8 px-12 sm:px-0 '>
+        <div className='grid sm:grid-cols-1 md:grid-cols-3 gap-8 px-12 sm:px-0 '>
             {
                 projects.map((item)=>{
                     const {id,image}=item
                      return (
-                       <div key={id} className="flex flex-col justify-between shadow-md  shadow-gray-600 rounded-lg mx-2 my-4">
+                       <div key={id} className="flex flex-col justify-between shadow-md  shadow-gray-600 rounded-lg ">
                          <img
                            src={image}
                            alt=""

@@ -1,6 +1,7 @@
 
 import React from 'react'
 import About from './components/About';
+import Experiance from './components/Experiance';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Portflio from './components/Portflio';
@@ -14,6 +15,7 @@ function App() {
       <Home/>
       <About />
       <Portflio/>
+      <Experiance/>
 
 
       <SocialLinks/>
