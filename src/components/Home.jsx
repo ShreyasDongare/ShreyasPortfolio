@@ -1,6 +1,7 @@
 import React from "react";
 import HeroImage from "../assets/HeroImage.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -23,12 +24,12 @@ const Home = () => {
             Bootstrap.
           </p>
           <div>
-            <button className="group flex justify-center items-center cursor-pointer  bg-gradient-to-l from-sky-700 to-teal-600 rounded-md px-5 py-3">
-              Portfolio
+            <Link to="portfolio" smooth duration={500} className="w-1/3 group flex justify-center items-center cursor-pointer  bg-gradient-to-l from-sky-700 to-teal-600 rounded-md px-5 py-3">
+             Portfolio
               <span className="mx-1 group-hover:rotate-90 duration-300">
                 <MdOutlineKeyboardArrowRight size={25} />
               </span>
-            </button>
+            </Link>
           </div>
         </div>
         <div>

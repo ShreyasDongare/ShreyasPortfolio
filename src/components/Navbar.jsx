@@ -69,7 +69,9 @@ const [nav, setNav]= useState(false)
                 key={id}
                 className="px-4 cursor-pointer capitalize text-4xl py-5 my-1"
               >
-                {link}
+                <Link onClick={()=> setNav(!nav)} to={link} smooth duration={500}>
+                  {link}
+                </Link>
               </li>
             );
           })}
