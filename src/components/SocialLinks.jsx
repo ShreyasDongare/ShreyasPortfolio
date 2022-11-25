@@ -31,6 +31,7 @@ const SocialLinks = () => {
     },
   ];
 
+  
 
   return (
     <div className=" hidden md:flex flex-col fixed top-[35%] left-0">
