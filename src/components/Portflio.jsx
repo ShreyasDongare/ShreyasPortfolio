@@ -38,7 +38,7 @@ const Portflio = () => {
                            alt=""
                            className="object-cover h-3/4 rounded-md duration-200 hover:scale-105"
                          />
-                         <div className="flex item-center justify-center">
+                         <div className="flex -z-10 item-center justify-center">
                            <button className="w-1/2 px-6 py-3 duration-200 scale-105">
                              Demo
                            </button>

@@ -22,19 +22,28 @@ const Contact = () => {
           <form
             action="https://getform.io/f/79f09a89-16a3-442f-bc4e-b273f1b4647f"
             className="flex flex-col w-full mx-auto md:w-1/2"
-            method='POST'
+            method="POST"
           >
             <input
               type="text"
               name="name"
               placeholder="Enter your name"
-              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none focus:border-cyan-600"
+              className=" my-2 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none focus:border-cyan-500 duration-500"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter your email"
+              className="my-2 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none focus:border-cyan-500 duration-500"
+              required
             />
             <input
               type="text"
-              name="email"
-              placeholder="Enter your email"
-              className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none  focus:border-cyan-600"
+              name="contact"
+              placeholder="Enter your phone no"
+              className=" my-2 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none focus:border-cyan-500 duration-500"
+              required
             />
 
             <textarea
@@ -43,9 +52,13 @@ const Contact = () => {
               cols="30"
               rows="10"
               placeholder="Enter your message "
-              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none  focus:border-cyan-600"
+              className=" my-2 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none  focus:border-cyan-500 duration-500"
+              required
             ></textarea>
-            <button type='submit' className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-105 duration-300 ">
+            <button
+              type="submit"
+              className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-105 duration-300 "
+            >
               Submit
             </button>
           </form>
